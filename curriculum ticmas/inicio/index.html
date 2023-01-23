@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+  <title>Mi cv</title>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+
+      box-sizing: border-box;
+
+    }
+
+
+
+    body {
+
+      font-family: Arial, Helvetica, sans-serif;
+
+      margin: 0;
+
+    }
+
+
+
+    /*Estilo del encabezado */
+
+    .header {
+
+      padding: 80px;
+
+      text-align: center;
+
+      background: #537b97;
+
+      color: white;
+
+    }
+
+
+
+    /* Increase the font size of the h1 element */
+
+    .header h1 {
+
+      font-size: 40px;
+
+    }
+
+
+
+    /* Style the top navigation bar */
+
+    .navbar {
+
+      overflow: hidden;
+
+      background-color: rgb(42, 117, 78);
+
+    }
+
+
+
+    /* Estilo enlaces barra de navegación*/
+
+    .navbar a {
+
+      float: left;
+
+      display: block;
+
+      color: white;
+
+      text-align: center;
+
+      padding: 15px 30px;
+
+      text-decoration: none;
+
+    }
+
+
+
+    /* Enlace alineado a la derecha */
+
+    .navbar a.right {
+
+      float: right;
+
+    }
+
+
+
+    /* Cambiar color al pasar el mouse */
+
+    .navbar a:hover {
+
+      background-color: #ddd;
+
+      color: rgb(126, 122, 122);
+
+    }
+
+
+
+    /* Contenedor de columnas */
+
+    .row {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+    }
+
+
+
+    /* Crear dos columnas */
+
+    /*Barra lateral/columna izquierda */
+
+    .side {
+
+      flex: 30%;
+
+      background-color: #f1f1f1;
+
+      padding: 20px;
+
+    }
+
+
+
+    /* Columna principal */
+
+    .main {
+
+      flex: 70%;
+
+      background-color: white;
+
+      padding: 20px;
+
+    }
+
+
+
+    /* fondo de tabla */
+
+    .fakeimg {
+
+      background-color: rgb(152, 163, 104);
+
+      width: 100%;
+
+      padding: 20px;
+
+    }
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 700px) {
+
+      .row {
+
+        flex-direction: column;
+
+      }
+
+    }
+
+
+
+
+
+    @media screen and (max-width: 400px) {
+
+      .navbar a {
+
+        float: none;
+
+        width: 100%;
+
+      }
+
+    }
+  </style>
+
+</head>
+
+<body>
+<div class="Encabezado">
+
+    <head>
+      <style>
+        #heading { color: #2e2698; } 
+
+        h1 {
+      text-align: center;
+          }
+
+          h3 {
+      text-align: center;
+            }
+        </style>
+    </head>
+    
+    <body>
+      <p align="center"><h1 id="heading">Mi Curriculum Vitae</h1></p>
+    
+      <p align="center"><h3 id="heading">Demo para Academy Ticmas</h3></p>
+      
+    </body>
+
+  
+  
+
+
+
+  <div class="navbar">
+
+    <a href="http://www.facebok.com">FACEBOOK</a>
+
+    <a href="http://www.twitter.com">TWITTER</a>
+
+    <a href="http://www.Instagram.com">INSTAGRAM</a>
+
+
+
+    
+
+  </div>
+
+
+
+  <div class="row">
+
+    <div class="side">
+
+      <h2>DATOS PERSONALES</h2>
+
+
+
+      <div class="fakeimg" style="height:200px;"><img src="../Imagenes.html/Imagen.jpg" alt="Mi foto de perfil/width="
+          160" height="160">
+
+      </div>
+      <div class="fakeimg" style="height:60px;">Julio Sosa</div><br>
+
+      <div class="fakeimg" style="height:60px;">Lugar de Nacimiento</div><br>
+
+      <div class="fakeimg" style="height:60px;">DNI 99999999</div><br>
+
+      <div class="fakeimg" style="height:60px;">
+        <p margin="0px" padding="0px" font-size="12px" font-family="Arial">
+          <a href="mailto:micorreo@hotmail.com" text-decoration="none !important" color="#02a1d3 !important">micorreo@hotmail.com</a>
+       </p>
+      
+       </div><br>
+
+
+
+
+
+
+
+    </div>
+
+    <div class="main">
+
+      <h2>Educacìon</h2>
+
+
+      <div class="fakeimg" style="height:200px;">
+        <table>
+          <tr id="heading">
+            <td>Titulo Optenido</td>
+            <td>Lugar</td>
+            <td>Porcentaje/ Grados</td>
+            <td>Año</td>
+          </tr>
+
+
+
+
+          <tr>
+            <td>CSS</td>
+            <td>Colegio Nacional Cordoba</td>
+            <td>75.57%</td>
+            <td>2004</td>
+          </tr>
+
+
+          <tr>
+            <td>H.S.C (Sciencia Aplicada)</td>
+            <td>Colegio Nacional Cordoba</td>
+            <td>72.40%</td>
+            <td>2006</td>
+          </tr>
+
+
+          <tr>
+            <td>GDCA (Informatica)</td>
+            <td>Universida Nacional de Cordoba</td>
+            <td>Titulo</td>
+            <td>2008</td>
+          </tr>
+
+
+        </table>
+      </div>
+
+
+
+      <br>
+
+      <h2>Antecedentes Laborales</h2>
+      <ul>
+
+        <h5></h5>
+
+        <div class="fakeimg" style="height:200px;">Actualmente cursando CS253 - Ingeniería de aplicaciones web y CS61A -
+          Estructura e interpretación de programas informáticos
+          Aprendió Python básico, JavaScript, HTML, CSS en Codecademy.com.
+          Una persona independiente, dedicada y eficiente. Estos atributos se prueban a través de la serie de cursos que
+          tomó o estoy tomando ahora de forma independiente a través de plataformas en línea.
+          Buenas Habilidades de Comunicación, Habilidades de Presentación, actitud de liderazgo, autorización y
+          delegación, resolución de conflictos y negociación y muy buen trabajador en equipo.</div>
+
+
+          
+
+
+    </div>
+    
+  </body>
+
+</html>

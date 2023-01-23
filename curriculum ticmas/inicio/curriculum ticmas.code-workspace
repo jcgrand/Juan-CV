@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Nueva carpeta"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "curriculum ticmas"
+	}
+}
